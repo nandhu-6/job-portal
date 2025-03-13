@@ -17,7 +17,7 @@ const NavBar = (props) => {
         </div>
 
         <ul className="w-153 flex items-center justify-between">
-          <li className="text-[16px] font-semibold px-4 py-2 rounded-lg">Homee</li>
+          <li className="text-[16px] font-semibold px-4 py-2 rounded-lg">Home</li>
           <li className="text-[16px] font-semibold px-4 py-2 rounded-lg">Find Jobs</li>
           <li className="text-[16px] font-semibold px-4 py-2 rounded-lg">Find Talents</li>
           <li className="text-[16px] font-semibold px-4 py-2 rounded-lg">About us</li>
