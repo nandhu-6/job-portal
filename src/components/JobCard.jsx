@@ -35,7 +35,6 @@ function JobCard({ logo, title, experience, location, salary }) {
             </div>
 
             {/* Job Description */}
-            {/* <p className="text-sm text-gray-500 mt-2">{description}</p> */}
             <ul className="text-gray-600 text-sm mt-4">
                 <li><div className="flex gap-2"><span>&#x2022; </span> <span>A user-friendly interface lets you browse stunning photos and videos</span></div></li>
                 <li><div className="flex gap-2"><span>&#x2022; </span> <span>Filter destinations based on interests and travel style, and create personalized</span></div></li>

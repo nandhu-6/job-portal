@@ -1,7 +1,4 @@
 import JobCard from './JobCard'
-import amazon from '../assets/images/amazon.png'
-import swiggy from '../assets/images/swiggy.png'
-import tesla from '../assets/images/tesla.png'
 
 function JobCardContainer(props) {
 

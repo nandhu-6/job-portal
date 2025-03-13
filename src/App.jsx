@@ -3,7 +3,6 @@ import "./App.css"
 import NavBar from './components/NavBar'
 import Header from './components/Header'
 import JobCardContainer from './components/JobCardContainer'
-import CreateJob from './components/CreateJob'
 import amazon from './assets/images/amazon.png'
 import swiggy from './assets/images/swiggy.png'
 import tesla from './assets/images/tesla.png'
@@ -23,9 +22,6 @@ function App() {
 
   const [jobs, setJobs] = useState(defaultJobs);
 
-  const addJob = (newJob) => {
-    setJobs((prevJobs) => [...prevJobs, newJob]);
-  };
 
   return (
     <div>
